@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Home{
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(214, 184, 127);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    margin: 10px;
+    list-style: none;
+    font-size: 20px;
+   font-family:monospace;
+
+}
+
+ul li a{
+color: black;
+text-decoration: none;
+}
+
+.logoimg{
+    height: 80px;
+    width: 145px;
+}
+
+.logoimg img{
+    height: 100%;
+    width: 100%;
+}
+
+.fb-img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.fb-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.ig-img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.ig-img img{
+    height: 100%;
+    width: 100%;
+}
+.logos{
+    display: flex;
+}
+.background-img{
+    background-image:linear-gradient(rgba(194, 107, 36, 0.411),rgba(250, 128, 6, 0.349)),url('https://w.forfun.com/fetch/cb/cbb7e5ac8598206fb4d9bcd9372f5156.jpeg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.headingtext{
+    height: 90vh;
+    width: 90wh;
+    padding: 150px;
+    justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+.heading{
+    font-size: 90px;
+    
+    font-family: 'Times New Roman', Times, serif; 
+    color: white;
+
+}
+button:hover{
+    color: blanchedalmond;
+    background-color: rgba(2, 19, 2, 0.404);
+}
+button {
+cursor: pointer;
+font-size: 17px;
+padding: 8px 15px;
+border-radius:50px;
+transition:  0.3s ease-in-out;
+border: none;
+
+}
+.midheading{
+    font-size: 22px;
+ 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+}
+.about{
+    background-color: rgba(189, 143, 57, 0.616);
+    height:auto;
+  
+    
+}
+.aboutpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgbox img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;   
+}
+.imgbox{
+    height: 450px;
+    width: 450px;
+}
+
+.aboutpage{
+    padding: 50px;
+    margin: 0px 40px;
+}
+.textcolor{
+    color:white;
+}
+.service{
+    background-color: cornsilk;
+    height:auto;
+    padding:40px;
+}
+.serviceheading{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+    
+}
+.cardimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.5s ease-in-out; 
+    /* accessing the parentn element  and giving the hover property to it */
+
+}
+.card:hover .cardimg img{
+    transform: scale(1.1);
+}
+
+.cardimg{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.servicebox{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.textoverlay{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 15px;
+    justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+
+}
+.text{
+    font-size: 50px;
+    color: azure;
+    font-weight: bold;
+}
+.midtext{
+    font-size: 20px;
+    color: azure;   
+}
+
+.card{
+    position: relative;
+}
+.contact{
+    background-image:linear-gradient(rgba(255, 136, 0, 0.432),rgba(228, 87, 87, 0.274)),url('wp7885257.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90vh;
+}
+ .headings {
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+ }
+ .contactinput{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .form{
+    margin:10px;
+ }
+ .form input,textarea{
+    width: 500px;
+    padding:10px;
+    background:transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+
+ }
+ .form input,textarea:focus{
+    outline: none;
+ }
+ ::placeholder{
+    color: black;  
+      font-size:15px ;
+ }
+ .buttonbox{
+    cursor: pointer;
+font-size: 17px;
+padding: 8px 15px;
+border-radius:50px;
+transition:  0.3s ease-in-out;
+border: none;
+ }
+ .footertext{
+    height: 80px;
+    background-color: burlywood;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+ }
